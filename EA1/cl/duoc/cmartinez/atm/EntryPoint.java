@@ -35,7 +35,7 @@ public class EntryPoint {
             System.out.println("Ingrese la contraseña");
             String password = sc.nextLine();
 
-            boolean validPwd = seleccionado.getPassword().equals(password);
+            boolean validPwd = seleccionado.getPassword().equals(password); // == => short, int, long, double, boolean
 
             if (!validPwd) {
                 System.out.println("Acceso no valido");
@@ -44,7 +44,6 @@ public class EntryPoint {
 
             break;
         } while(true);
-
         Account acSeleccionada =  seleccionado.getAccount();
         do {
             System.out.println("1. Depositar");
