@@ -7,7 +7,7 @@ public class Critico {
     private int aniosExperiencia;
 
     public boolean setNombre(String nombre){
-        if(nombre == null || nombre.trim().isEmpty()){ // "", "        "
+        if(nombre == null || nombre.isBlank()){ // "", "        "
             return false;
         }
         this.nombre = nombre;

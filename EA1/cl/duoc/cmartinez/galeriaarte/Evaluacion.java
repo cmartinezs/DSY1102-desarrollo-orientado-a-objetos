@@ -5,6 +5,15 @@ public class Evaluacion {
     private int rutCritico;
     private int calificacion;
 
+    public Evaluacion() {
+    }
+
+    public Evaluacion(String codigoCuadro, int rutCritico, int calificacion){
+        this.codigoCuadro = codigoCuadro;
+        this.rutCritico = rutCritico;
+        this.calificacion = calificacion;
+    }
+
     public boolean setCalificacion(int calificacion){
         boolean esMenor0 = calificacion < 0;
         boolean esMayor70 = calificacion > 70;

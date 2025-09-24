@@ -5,7 +5,7 @@ public class Cuadro {
     private String titulo;
     private String autor;
     private int anioCreacion;
-    private String galeria;
+    private Galeria galeria;
 
     public boolean setTitulo(String titulo){
         if(titulo == null || titulo.trim().isEmpty()){ // "", "        "
@@ -49,11 +49,11 @@ public class Cuadro {
         return anioCreacion;
     }
 
-    public String getGaleria() {
+    public Galeria getGaleria() {
         return galeria;
     }
 
-    public void setGaleria(String galeria) {
+    public void setGaleria(Galeria galeria) {
         this.galeria = galeria;
     }
 }
