@@ -1,3 +1,5 @@
+package cl.duoc.cmartinez;
+
 public class SentenciasControl {
   public static void main(String[] args) {
       System.out.println("Sentencias de control");

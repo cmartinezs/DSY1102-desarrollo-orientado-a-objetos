@@ -4,7 +4,7 @@
 * Introducción a Java
   * Sintaxis básica
   * Tipos de datos primitivos
-  * Operadores
+  * cl.duoc.cmartinez.Operadores
   * Estructuras de control
   * Estructuras de repetición
 * Programación Orientada a Objetos
@@ -22,5 +22,5 @@
   * Creación de excepciones personalizadas
 
 ## Experiencia de Aprendizaje 1
-* EA1/HolaMundo.java:
-* EA1/Variables.java:
+* EA1/cl.duoc.cmartinez.HolaMundo.java:
+* EA1/cl.duoc.cmartinez.Variables.java:

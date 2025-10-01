@@ -1,3 +1,5 @@
+package cl.duoc.cmartinez;
+
 public class SentenciaCiclo {
     public static void main(String[] args){
         System.out.println("Sentencia de ciclo");

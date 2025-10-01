@@ -1,6 +1,8 @@
+package cl.duoc.cmartinez;
+
 public class Operadores {
   public static void main(String[] args) {
-    // Operadores
+    // cl.duoc.cmartinez.Operadores
     // Aritmeticos: +, - *, /, %
     int a = 10 + 5;
     int b = 10 - 5;
@@ -18,7 +20,7 @@ public class Operadores {
             String.format("a = %d, b = %d, c = %d, d = %d, e = %d", a, b, c, d, e);
     System.out.println(format);
 
-    //Operadores de comparación: <, >, ==, <=, >=, !=
+    //cl.duoc.cmartinez.Operadores de comparación: <, >, ==, <=, >=, !=
     boolean esMayor = a > b;
     boolean esIgual = a == b;
     boolean esMenor = a < b;
@@ -31,7 +33,7 @@ public class Operadores {
     System.out.println("esMenorIgual = a <= b = " + esMenorIgual);
     System.out.println("esDistinto = a != b = " + esDistinto);
 
-    //Operadores logicos: ||, &&, ! <----- negación
+    //cl.duoc.cmartinez.Operadores logicos: ||, &&, ! <----- negación
     boolean esMayorOIgual = !(esMayor || esIgual);
     boolean esMayorEIgual = !esMayor && esIgual;
     boolean esMayorODistinto = esMayor || esDistinto;

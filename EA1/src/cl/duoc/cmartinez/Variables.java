@@ -1,3 +1,5 @@
+package cl.duoc.cmartinez;
+
 public class Variables {
   public static void main(String[] args) {
     System.out.println("Definición de variables y tipos de datos básicos");
