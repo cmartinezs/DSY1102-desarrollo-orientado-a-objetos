@@ -24,5 +24,7 @@ public class MainString {
     System.out.println("rut N " +  rutSinP.split("-")[0]);
       System.out.println("rut DV " +  rutSinP.split("-")[1]);
     System.out.println("rut: " + rut);
+    System.out.println("rut: " + rut.substring(0, 3));
+    System.out.println("rut: " + rut.substring(3, 10));
   }
 }
