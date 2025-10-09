@@ -1,34 +1,19 @@
 package cl.duoc.cmartinez.arrays;
 
 public class ArrayMain {
-    public static void main(String[] args){
-        /*int[] array = {1, 2, 3, 4, 5};
-        for (int i = 0; i < array.length; i++) {
-            System.out.println("array[" + i + "] = " + array[i]);
-        }
+  public static void main(String[] args) {
+    Auto[] autos = new Auto[5];
+    autos[0] = new Auto("Chevrolet", "Camaro", 2019, 1, 1111111);
+    autos[1] = new Auto("BMW", "X5", 2018, 2, 2222222);
+    autos[2] = new Auto("Toyota", "Prius", 2017, 3, 3333333);
+    autos[3] = new Auto("Volkswagen", "Golf", 2016, 4, 4444444);
+    autos[4] = new Auto("Fiat", "Punto", 2020, 4, 2222222);
 
-        for(int el: array){
-            System.out.println("el = " + el);
-        }*/
+    System.out.println("Auto indice: 0 => " + autos[0].getInfo());
+    System.out.println("Auto indice: 1 => " + autos[1].getInfo());
 
-        Auto[] autos = new Auto[5];
-
-        autos[0] = new Auto();
-        autos[1] = autos[0];
-        autos[2] = new Auto();
-        autos[3] = new Auto();
-        autos[4] = new Auto("Fiat", "Punto", 2020, 4, 2222222);
-
-        autos[0].setMarca("Ford");
-        //autos[4].getMarca();
-
-        Auto[] autos2 = new Auto[5];
-        autos2[0] = autos[0];
-
-    //System.out.println(autos);
-
-    for(Auto auto: autos){
-        System.out.println("Auto => " + auto);
+    for (Auto auto : autos) {
+      System.out.println("Auto => " + auto);
     }
   }
 }

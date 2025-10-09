@@ -61,8 +61,13 @@ public class Auto {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
     @Override
     public String toString() {
         return "Auto{" + "marca=" + marca + ", modelo=" + modelo + ", anio=" + anio + ", numPuertas=" + numPuertas + ", precio=" + precio + '}';
+    }
+
+    public String getInfo() {
+        return "Marca: " + this.marca + "\nModelo: " + this.modelo + "\nAnio: " + this.anio + "\nNum puertas: " + this.numPuertas + "\nPrecio: " + this.precio;
     }
 }
